@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/index.css */
+/* Global Styles */
+
+body {
+  @apply   font-sans leading-relaxed scroll-smooth m-0 p-0;
+}
+
+
+a {
+  @apply text-inherit no-underline;
+}
+
+a:hover {
+  @apply text-blue-600;
+}
+
+.container {
+  @apply max-w-screen-xl mx-auto px-4;
+}
+
+header {
+  @apply bg-gray-800 shadow-md;
+}
+
+section {
+  @apply py-16;
+}
+
+section h2 {
+  @apply text-blue-600;
+}
+
+button {
+  @apply bg-blue-600 text-white border-none rounded-md py-2 px-4 cursor-pointer;
+}
+
+button:hover {
+  @apply bg-blue-700;
+}
+
+footer {
+  @apply bg-gray-100 py-5 text-center;
+}
+
+footer a {
+  @apply text-blue-600;
+}
+
+footer a:hover {
+  @apply text-blue-700;
+}

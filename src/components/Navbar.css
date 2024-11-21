@@ -1,0 +1,52 @@
+/* Navbar.css */
+
+.navbar {
+ 
+
+  background-color: #1a202c;  /* Dark background color for the navbar */
+  }
+  
+  .navbar .brand {
+    color: white; /* White color for the brand text */
+    font-size: 5rem; /* Adjust font size as needed */
+  }
+  
+  .navbar .brand:hover {
+    color:white; /* Light color for hover effect on the brand text */
+  }
+  
+  .navbar ul {
+    display: flex;
+    gap: 1rem; /* Adjust space between nav items */
+  }
+  
+  .navbar li {
+    list-style: none;
+  }
+  
+  .navbar a {
+    color: white; /* Light gray color for nav links */
+    font-size: 2rem; /* Adjust font size as needed */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.6s; /* Smooth color transition */
+  }
+  
+  .navbar a:hover {
+    color: #63b3ed; /* Light blue color for hover effect on links */
+  }
+  
+  .navbar a.active {
+    color: #4fd1c5; /* Teal color for the active link */
+  }
+  .handwriting {
+    font-family: 'Dancing Script', cursive; /* Handwriting font */
+    font-style: italic; /* Italic text */
+    color: white; /* Text color */
+    text-shadow: 
+      1px 1px 0 #000, 
+      -1px -1px 0 #000, 
+      1px -1px 0 #000, 
+      -1px 1px 0 #000; /* Black stroke effect */
+  }
+  
+  

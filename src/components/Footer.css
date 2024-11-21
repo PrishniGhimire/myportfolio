@@ -1,0 +1,53 @@
+/* Footer Styles */
+.footer {
+  background-color: #1a202c;  /* Dark background color for the navbar */
+
+   /* color: #fff; /* White Text */
+    padding: 40px 20px; /* Spacing around the footer */
+    display: flex; /* Use flex for alignment */
+    justify-content: center; /* Center contents horizontally */
+    align-items: center; /* Center contents vertically */
+    width: 100%; /* Full width */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between; /* Space between the two sides */
+    align-items: center; /* Center vertically */
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Max width for content */
+    flex-wrap: wrap; /* Wrap content for responsiveness */
+    gap: 20px; /* Gap between elements */
+  }
+  
+  /* Left Side: Footer Logo */
+  .footer-logo  {
+    font-family: 'Montserrat', sans-serif; /* Stylish Font */
+    font-size: 2.5rem; /* Large Font Size */
+    font-weight: bold; /* Bold Text */
+    color: paleturquoise; /* Slightly Off-White for contrast */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Right Side: Footer Links and Info */
+  .footer-links {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-end; /* Align text to the right */
+    gap: 5px; /* Small gap between lines */
+    text-align: right; /* Align text to the right */
+  }
+  
+  /* Footer Link Styles */
+  .footer-links p:hover {
+    margin: 0; /* Remove default margin */
+    font-size: 0.9rem; /* Smaller text size */
+    color: paleturquoise; /* Light grey text color */
+  }
+  
+  /* Footer Hover Effects */
+  .footer-links p:hover {
+    color: paleturquoise; /* Change text color on hover */
+    transition: color 0.3s ease; /* Smooth transition */
+  }
+  
